@@ -1,15 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
 header{
-    background-color: bisque;
+    background-color: #FFABC6;
+    height: 100px;
+
 }
 
 main{
-    background-color: aqua;
+    background-color: #FFC0D4;
 }
 
 footer{
-    background-color: aquamarine;
+    background-color: #FFD5E2;
 }
 
-li{
+figure, nav, ul, li{
     display: inline;
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+div{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+nav{
+    position: relative;
+    bottom: 15px;
+    left: 1100px;
 }
